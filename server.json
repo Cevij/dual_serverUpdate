@@ -1,0 +1,62 @@
+{
+
+	"servers": [
+		{
+			"name":"server1",
+			"os": "redHat",
+			"ip": ".....",
+			"user": "ec2-user",
+			"version": "1.6",
+			"apps":[
+					{
+						"app_name": "app1",
+						"start_script":"app1_start",
+						"stop_script":"app1_stop"
+					},
+					{
+						"app_name": "app2",
+						"start_script":"app2_start",
+						"stop_script":"app2_stop"
+					}
+					]
+		},
+		{		
+				"name":"server2",
+				"os": "redHat",
+				"ip": ".......",
+				"user": "ec2-user",
+				"version": "1.6",
+				"apps":[
+						{
+							"app_name": "app3",
+							"start_script":"app3_start",
+							"stop_script":"app3_stop"
+						},
+						{
+							"app_name": "app2",
+							"start_script":"app2_start",
+							"stop_script":"app2_stop"
+						}
+					]
+			},
+		{
+				"name":"server3",
+				"os": "redHat",
+				"ip": "........",
+				"user": "ec2-user",
+				"version": "1.6",
+				"apps":[
+						{
+							"app_name": "app1",
+							"start_script":"app1_start",
+							"stop_script":"app1_stop"
+						},
+						{
+							"app_name": "app2",
+							"start_script":"app2_start",
+							"stop_script":"app2_stop"
+						}
+					]
+			}
+	]
+}
