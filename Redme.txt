@@ -1,0 +1,2 @@
+This is a project where my main goal is to update multiple servers at once through threading with python reading from a json on a neo4j data base. I am still
+in the early stages of the code. sorry for having bad code structure im just try to get it to work before i make it pretty. 
